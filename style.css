@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+}
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo das seções */
+section {
+    padding: 40px 0;
+}
+section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilo dos serviços */
+.service-item {
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
